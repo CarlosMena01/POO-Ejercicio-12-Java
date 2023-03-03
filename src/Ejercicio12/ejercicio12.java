@@ -18,9 +18,9 @@ public class ejercicio12 {
 		salarioNeto = salarioBruto*(100 - porcentajeRetencion)/100;
 		
 		/*	Imprimimos la respuesta	*/
-		System.out.println("El salario bruto es: $" + salarioBruto);
-		System.out.println("La retención en fuente es: " + porcentajeRetencion + "%");
-		System.out.println("El salario neto es: $" + salarioNeto);
+		System.out.println("El salario bruto es: $ " + salarioBruto);
+		System.out.println("La retención en fuente es: $ " + (salarioBruto - salarioNeto));
+		System.out.println("El salario neto es: $ " + salarioNeto);
 		
 		/*	Cerramos el scanner	*/
 		sc.close();
